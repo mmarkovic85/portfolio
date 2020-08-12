@@ -9,6 +9,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+
+import Header from "../components/Header";
 import HomePage from "../components/HomePage";
 import AboutPage from "../components/AboutPage";
 import ProjectsPage from "../components/ProjectsPage";
@@ -18,6 +20,7 @@ import NotFoundPage from "../components/NotFoundPage";
 // Application Router Component
 const AppRouter = () => (
   <Router>
+    <Header />
     <Switch>
       <Route path="/" component={HomePage} exact={true} />
       <Route path="/about" component={AboutPage} />
