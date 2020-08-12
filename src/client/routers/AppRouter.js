@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import HomePage from "../components/HomePage";
 import AboutPage from "../components/AboutPage";
 import ProjectsPage from "../components/ProjectsPage";
@@ -28,6 +29,7 @@ const AppRouter = () => (
       <Route path="/skills" component={SkillsPage} />
       <Route component={NotFoundPage} />
     </Switch>
+    <Footer />
   </Router>
 );
 
