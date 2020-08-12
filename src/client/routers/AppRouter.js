@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 
 import Header from "../components/Header";
+import Navbar from "./Navbar";
 import Footer from "../components/Footer";
 import HomePage from "../components/HomePage";
 import AboutPage from "../components/AboutPage";
@@ -21,7 +22,7 @@ import NotFoundPage from "../components/NotFoundPage";
 // Application Router Component
 const AppRouter = () => (
   <Router>
-    <Header />
+    <Header navbar={Navbar} />
     <Switch>
       <Route path="/" component={HomePage} exact={true} />
       <Route path="/about" component={AboutPage} />
