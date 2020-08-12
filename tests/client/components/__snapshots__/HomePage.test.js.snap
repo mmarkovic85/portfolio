@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shoult render HomePage component correctly 1`] = `
+<div>
+  <h1
+    className="homepage__title"
+  >
+    Welcome to 
+    My App
+    .
+  </h1>
+</div>
+`;

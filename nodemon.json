@@ -1,0 +1,11 @@
+{
+  "events": {
+    "start": "npm run build:dev"
+  },
+  "ignore": [
+    "public/dist/*",
+    "tests/fixtures/*",
+    "*.test.js"
+  ],
+  "ext": "js json scss"
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shoult render NotFoundPage component correctly 1`] = `
+<div>
+  <h1
+    className="not-found-page__title"
+  >
+    Error 404
+  </h1>
+  <p>
+    The requested URL "
+    localhost:3000/about
+    " was not found!
+  </p>
+</div>
+`;

@@ -1,0 +1,55 @@
+{
+  "name": "react-node-boilerplate",
+  "version": "1.0.6",
+  "keywords": [
+    "template",
+    "development",
+    "react",
+    "node",
+    "boilerplate"
+  ],
+  "description": "Boilerplate for React/Node Apps",
+  "author": "Marković Miloš",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server/server.js",
+    "dev-server": "nodemon ./src/server/server.js",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "test": "jest --runInBand",
+    "heroku-postbuild": "npm run build:prod"
+  },
+  "dependencies": {
+    "@babel/core": "7.11.0",
+    "@babel/preset-env": "7.11.0",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "core-js": "3.6.5",
+    "css-loader": "4.2.0",
+    "express": "4.17.1",
+    "mini-css-extract-plugin": "0.9.0",
+    "node-sass": "4.14.1",
+    "normalize-css": "^2.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "^5.2.0",
+    "regenerator-runtime": "0.13.7",
+    "sass-loader": "9.0.2",
+    "supertest": "^4.0.2",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12"
+  },
+  "devDependencies": {
+    "jest": "26.2.2",
+    "nodemon": "^2.0.4",
+    "react-test-renderer": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmarkovic85/react-node-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmarkovic85/react-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mmarkovic85/react-node-boilerplate#readme"
+}
