@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Footer component correctly 1`] = `
+<footer>
+  <h6>
+    Footer placeholder
+  </h6>
+</footer>
+`;
