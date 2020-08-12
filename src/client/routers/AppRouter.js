@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import HomePage from "../components/HomePage";
 import AboutPage from "../components/AboutPage";
+import ProjectsPage from "../components/ProjectsPage";
 import SkillsPage from "../components/SkillsPage";
 import NotFoundPage from "../components/NotFoundPage";
 
@@ -20,6 +21,7 @@ const AppRouter = () => (
     <Switch>
       <Route path="/" component={HomePage} exact={true} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/projects" component={ProjectsPage} />
       <Route path="/skills" component={SkillsPage} />
       <Route component={NotFoundPage} />
     </Switch>
