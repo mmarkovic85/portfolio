@@ -9,14 +9,16 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Homepage from "../components/HomePage";
+import HomePage from "../components/HomePage";
+import AboutPage from "../components/AboutPage";
 import NotFoundPage from "../components/NotFoundPage";
 
 // Application Router Component
 const AppRouter = () => (
   <Router>
     <Switch>
-      <Route path="/" component={Homepage} exact={true} />
+      <Route path="/" component={HomePage} exact={true} />
+      <Route path="/about" component={AboutPage} />
       <Route component={NotFoundPage} />
     </Switch>
   </Router>
